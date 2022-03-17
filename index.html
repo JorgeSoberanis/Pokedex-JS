@@ -7,7 +7,6 @@
     <title>Pokedex-Espacial</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="/imagenes/pokeball.png">
-    <link rel="stylesheet" href="/api.js">
 </head>
 <body id="body" >
     
@@ -19,8 +18,8 @@
     <article>
         <div>
             
-            <h1></h1><input type="text" value="pikachu">
-            <button type="button"><img src="./imagenes/pokeball.png"  height="40" width="40" alt=""></button>
+            <h1></h1><input type="text" value="pikachu" id="name">
+            <button onclick="fetchPokemon()"><img src="./imagenes/pokeball.png"  height="40" width="40" alt=""></button>
         </div>
     </article>
 
@@ -36,4 +35,7 @@
     
 
 </body>
+    <footer>
+        <script src="./api.js"></script>
+    </footer>
 </html>
