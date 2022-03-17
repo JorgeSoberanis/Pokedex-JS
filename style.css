@@ -1,0 +1,48 @@
+p, h1{
+    text-align: center;
+    color: #000000;
+}
+
+/*header{
+    
+    border: rgb(17, 16, 16) 1px solid;
+}
+    Solo es un borde al texto de bienvenida jejje
+*/
+
+article{
+    border: black 1px solid;
+}
+
+#pokedex{
+    display:block;
+    margin:auto;
+    width: 750px;
+    height: 750px;
+}
+
+body{
+    background: url("./imagenes/fondo-pokemon.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+div{
+    border: black;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#boton{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+}
+
+section{
+    border: red;
+}
