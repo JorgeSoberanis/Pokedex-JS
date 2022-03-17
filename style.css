@@ -38,11 +38,22 @@ div{
 }
 
 #boton{
-    width: 20px;
-    height: 20px;
+    width: 1px;
+    height: 1px;
     position: fixed;
 }
 
 section{
     border: red;
 }
+
+#resultado{
+    padding: 10px;
+    margin: 80px;
+    border: 1px solid black;
+    float: left;
+    width: 200px;
+
+
+}
+
