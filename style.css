@@ -21,7 +21,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 div{
@@ -43,7 +42,7 @@ section{
 
 #pokeImg{
     padding: 10px;
-    margin: 50px;
+    margin: 60px;
     border: 1px solid black;
     float: left;
     width: 200px;
@@ -53,4 +52,6 @@ section{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+
+
 
