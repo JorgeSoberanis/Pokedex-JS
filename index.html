@@ -10,15 +10,14 @@
 </head>
 <body id="body" >
     
-    <header>
+    <header id="titulo">
         <h1>Bievenido a tu pokedex</h1>
         <p>Esta es tu pokedex para tu aventura como entrenador pokemon <br>A atraparlos a todos!</p><br>
     </header>
 
     <article>
-        <div>
-            
-            <h1></h1><input type="text" value="pikachu" id="name">
+        <div> 
+            <h1></h1><input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
             <button onclick="fetchPokemon()"><img src="./imagenes/pokeball.png"  height="40" width="40" alt=""></button>
         </div>
     </article>
@@ -26,14 +25,12 @@
     <section>
 
         <div>
-            <img src="/imagenes/pokeball.png" alt="" id="resultado">
-    
+            <img src="/imagenes/pokeball.png"  id="pokeImg" alt="">
         </div>
 
 
     </section>
     
-
 </body>
     <footer>
         <script src="./api.js"></script>

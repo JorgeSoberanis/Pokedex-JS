@@ -14,12 +14,6 @@ article{
     border: black 1px solid;
 }
 
-#pokedex{
-    display:block;
-    margin:auto;
-    width: 750px;
-    height: 750px;
-}
 
 body{
     background: url("./imagenes/fondo-pokemon.jpg") no-repeat center center fixed; 
@@ -33,8 +27,8 @@ body{
 div{
     border: black;
     align-items: center;
-    text-align: center;
-    
+    text-align: center; 
+
 }
 
 #boton{
@@ -47,13 +41,16 @@ section{
     border: red;
 }
 
-#resultado{
+#pokeImg{
     padding: 10px;
-    margin: 80px;
+    margin: 50px;
     border: 1px solid black;
     float: left;
     width: 200px;
+}
 
-
+#titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
